@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV show search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #searchForm {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        img {
+            display: inline;
+            margin-bottom: 10px;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <h1>TV show search</h1>
+    <form id="searchForm">
+        <input type="text" placeholder="TV show" name="query">
+        <button>Search</button>
+    </form>
+    <script src="axios.js"></script>
+</body>
+
+</html>
