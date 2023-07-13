@@ -8,7 +8,7 @@ To use the TV Show Search application, follow these steps:
 
 1. Clone or download the repository to your local machine.
 
-2. Open the `index.html` file in a web browser.
+2. Open the `axios.html` file in a web browser.
 
 3. You will see a TV show search form with an input field and a search button.
 
